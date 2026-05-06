@@ -294,6 +294,23 @@ section {
   padding: 1.1rem;
 }
 
+.plan {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan .btn {
+  display: block;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 0.72rem;
+  padding-bottom: 0.72rem;
+}
+
+.plan ul {
+  flex: 1;
+}
+
 .feature-card p,
 .step p,
 .plan ul {
@@ -331,7 +348,7 @@ section {
 }
 
 .plan ul {
-  margin: 0;
+  margin: 0 0 1rem;
   padding-left: 1.2rem;
   display: grid;
   gap: 0.35rem;
